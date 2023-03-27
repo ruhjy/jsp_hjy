@@ -21,6 +21,5 @@
 	out.println(a);
 	out.println("</h1>");
 	%>
-	
 </body>
 </html>
