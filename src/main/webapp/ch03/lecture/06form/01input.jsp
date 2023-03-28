@@ -14,7 +14,6 @@
 		
 		<input type="text" /> <br />
 		
-		
 		<!-- 수 입력 필드 -->
 		<input type="number" /> <br />
 		
