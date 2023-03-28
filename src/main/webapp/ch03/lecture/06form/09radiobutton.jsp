@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>radio button (하나의 값만 선택)</h1>
+	<h1>radio button (하나의 값만 선택할 때 사용)</h1>
 	<form action="">
 		선택1 <br />
 		<input type="radio" name="param1" checked value="val1" />
