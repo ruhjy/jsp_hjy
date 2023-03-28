@@ -9,8 +9,11 @@ public class test1 {
 		
 		System.out.println(Integer.valueOf((int) Math.ceil(3.8)));
 		
-		Double
-		Short
-		short
+		String[] hobbys = {"java", "html"};		
+		
+		
+		for(String hobby : hobbys) {
+			System.out.println(hobby);
+		}
 	}
 }
