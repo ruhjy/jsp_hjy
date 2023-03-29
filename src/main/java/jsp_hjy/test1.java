@@ -1,5 +1,7 @@
 package jsp_hjy;
 
+import java.util.*;
+
 public class test1 {
 	public static void main(String[] args) {
 		
@@ -15,5 +17,9 @@ public class test1 {
 		for(String hobby : hobbys) {
 			System.out.println(hobby);
 		}
+		
+		
+		String[] movies = {"java", "html"};
+			Arrays.stream(movies).forEach(movie -> System.out.print("<h1>movie </h1>"));
 	}
 }
