@@ -15,6 +15,7 @@ public class Bean02 {
 		this.price = price;
 	}
 
+	// property
 	public int getId() {
 		return id;
 	}
