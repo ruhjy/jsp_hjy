@@ -9,8 +9,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1></h1>
-	
 	<%
 		// 1. 쿠키명 : my-cookie-7
 		//    쿠키값 : my-value-7
