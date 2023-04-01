@@ -14,7 +14,8 @@
 	
 	<!-- 04sub.jsp 파일의 내용을 현재 위치에 포함 -->
 	<%@ include file="04sub.jsp" %> <br />
-	<%@ include file="04sub.jsp" %>
+	<%@ include file="04sub.jsp" %> <br />
+	
 
 </body>
 </html>
