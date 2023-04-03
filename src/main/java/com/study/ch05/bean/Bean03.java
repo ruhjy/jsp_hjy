@@ -11,10 +11,10 @@ public class Bean03 {
 	// lastName
 	// age
 	// fullName
-	
+
 	// 읽을 수 있는 프로퍼티
 	// getXXX (boolean == isXXX)
-	
+
 	// 쓸 수 있는 프로퍼티
 	// setXXX
 
