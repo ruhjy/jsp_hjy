@@ -3,7 +3,7 @@ package com.study.ch05.bean;
 import java.util.*;
 
 public class Bean05 {
-
+	
 	private String name;
 	private List<String> items;
 	

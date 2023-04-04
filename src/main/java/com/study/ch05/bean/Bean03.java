@@ -45,4 +45,11 @@ public class Bean03 {
 	public void setAge(int age) {
 		this.age = age;
 	}
+
+	@Override
+	public String toString() {
+		return "Bean03 [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + "]";
+	}
+
+	
 }
