@@ -31,5 +31,5 @@ public class Bean01 {
 	public void setMarried(boolean married) {
 		this.married = married;
 	}
-
+	
 }
