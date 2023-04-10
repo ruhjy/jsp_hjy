@@ -34,6 +34,13 @@
 		<input type="submit" value="수정" />
 	</form>
 	
+	<!-- 삭제 폼 -->
+	<c:url value="/lec/sample12" var="deleteUrl" />
+	<form action="${deleteUrl }" method="post">
+		<input type="hidden" name="index" id="input3" />
+		<input type="submit" value="삭제" />
+	</form>
+	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	
@@ -44,6 +51,7 @@
 		/* console.log(index); */
 		$("#input1").val(name);
 		$("#input2").val(index);
+		$("#input3").val(index);
 	});
 	</script>
 </body>
