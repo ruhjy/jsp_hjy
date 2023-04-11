@@ -30,6 +30,8 @@
 	<filter-mapping>
 		<filter-name>filter09</filter-name>
 		<url-pattern>/lec/sample18</url-pattern>
+		<url-pattern>/lec/sample19</url-pattern>
+		<url-pattern>/lec/sub3/*</url-pattern>
 	</filter-mapping>
 
 	<!-- 세션 설정 -->
