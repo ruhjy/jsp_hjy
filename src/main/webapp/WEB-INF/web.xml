@@ -13,6 +13,25 @@
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
 
+	<!-- 필터 설정 -->
+	<filter-mapping>
+		<filter-name>filter08</filter-name>
+		<url-pattern>/lec/sample17</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>filter07</filter-name>
+		<url-pattern>/lec/sample17</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>filter10</filter-name>
+		<url-pattern>/lec/sample18</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>filter09</filter-name>
+		<url-pattern>/lec/sample18</url-pattern>
+	</filter-mapping>
+
 	<!-- 세션 설정 -->
 	<session-config>
 		<session-timeout>30</session-timeout>
