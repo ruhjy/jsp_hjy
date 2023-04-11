@@ -6,23 +6,21 @@ import javax.servlet.*;
 import javax.servlet.annotation.*;
 import javax.servlet.http.*;
 
-@WebFilter("/lec/sample14")
-public class Filter02 extends HttpFilter implements Filter {
+@WebFilter({ "/lec/sample19", "/lec/sample20", "/lec/sample21" })
+public class Filter11 extends HttpFilter implements Filter {
 	private static final long serialVersionUID = 1L;
 
 	public void init(FilterConfig fConfig) throws ServletException {
-//		System.out.println("sample14 - init()");
 	}
 
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
-		System.out.println("sample14 - doFilter()");
+		System.out.println("11번 필터 출근");
 		chain.doFilter(request, response);
-		System.out.println("bye");
+		System.out.println("11번 필터 퇴근");
 	}
 
-	public void destroy() { 
-//		System.out.println("sample14 - destroy()");
+	public void destroy() {
 	}
 
 }

@@ -11,7 +11,7 @@ public class Filter01 extends HttpFilter implements Filter {
 	private static final long serialVersionUID = 1L;
 
 	public void init(FilterConfig fConfig) throws ServletException {
-		System.out.println("sample13 - init()");
+//		System.out.println("sample13 - init()");
 	}
 
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
@@ -26,7 +26,7 @@ public class Filter01 extends HttpFilter implements Filter {
 	}
 
 	public void destroy() {
-		System.out.println("sample13 - destroy()");
+//		System.out.println("sample13 - destroy()");
 	}
 
 }
